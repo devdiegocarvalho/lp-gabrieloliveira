@@ -1,0 +1,52 @@
+.quemsomos {
+  background: url(../img/quem-e-o-biel-carro.jpg) no-repeat center center;
+  background-size: cover;
+  border-bottom: 3px solid #a38100;
+}
+
+.quemsomos-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 140px 20px;
+  display: grid;
+  grid-template-columns: 50% auto;
+  align-items: center;
+}
+
+.quemsomos-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+}
+
+.quemsomos-container p {
+  font-size: 1.1875rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .quemsomos {
+    background: url(../img/quem-e-o-biel-carro-mobile.jpg) no-repeat center
+      bottom;
+    background-size: cover;
+  }
+
+  .quemsomos-container {
+    padding: 200px 20px 50px 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .quemsomos-container h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .quemsomos-container p {
+    line-height: 1.3;
+  }
+}
