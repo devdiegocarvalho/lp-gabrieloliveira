@@ -62,6 +62,12 @@
   padding: 20px 80px;
   border-radius: 4px;
   background: #ffca00;
+  transition: all 0.3s;
+}
+
+.sobre-header a:hover {
+  color: #fff;
+  background: #ff0000;
 }
 
 @media (max-width: 768px) {

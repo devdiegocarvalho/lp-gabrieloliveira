@@ -1,0 +1,67 @@
+.social {
+  max-width: 635px;
+  margin: 52px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-textos {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.verified {
+  display: flex;
+  align-items: center;
+}
+
+.verified i {
+  font-size: 0.875rem;
+  color: #00a1ff;
+  margin-left: 4px;
+  padding-bottom: 2px;
+}
+
+.verified h2 {
+  font-size: 1.625rem;
+  font-weight: 900;
+  line-height: 1;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.social-textos p {
+  font-weight: 500;
+  color: #2a2a2a;
+}
+
+.social a {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background: red;
+  padding: 10px 40px;
+  border-radius: 4px;
+  display: block;
+  margin-left: 22px;
+  transition: all 0.3s;
+}
+
+.social a:hover {
+  cursor: pointer;
+  background: #cf2e2e;
+}
+
+@media (max-width: 425px) {
+  .social-textos p {
+    text-align: center;
+  }
+}
