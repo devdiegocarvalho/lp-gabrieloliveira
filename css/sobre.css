@@ -1,0 +1,88 @@
+.sobre {
+  background: url(../img/Banner-sobre-o-curso-1.jpg) no-repeat top center;
+  background-size: cover;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #a38100;
+}
+
+.sobre-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  display: grid;
+  grid-template-columns: 49% auto;
+  gap: 20px;
+  align-items: center;
+}
+
+.sobre-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.sobre-head {
+  font-size: 2.5rem;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 800;
+}
+
+.sobre-lista li {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ffff;
+  margin-bottom: 10px;
+}
+
+.sobre-lista li span {
+  text-transform: uppercase;
+}
+
+.sobre-lista i {
+  color: #ffca00;
+  margin-right: 7px;
+}
+
+.sobre-header p {
+  font-size: 1.1875rem;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.sobre-header a {
+  color: #141414;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 80px;
+  border-radius: 4px;
+  background: #ffca00;
+}
+
+@media (max-width: 768px) {
+  .sobre {
+    padding-bottom: initial;
+  }
+
+  .sobre-container {
+    grid-template-columns: 1fr;
+  }
+
+  .sobre-header {
+    align-items: center;
+    gap: 23px;
+  }
+
+  .sobre-head {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .sobre-header a {
+    margin-top: 15px;
+  }
+}

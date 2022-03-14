@@ -1,0 +1,113 @@
+.banner {
+  background: url(../img/Banner-Principal-final-de-todosPrancheta-1.jpg)
+    no-repeat top center;
+  background-size: cover;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #a38100;
+}
+
+.banner-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+.banner header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.banner-head {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+  line-height: 1.1;
+  margin-top: 5px;
+}
+
+.banner-texto {
+  font-size: 1.1875rem;
+  color: #fff;
+  text-align: left;
+  line-height: 1.3;
+  margin-top: 5px;
+}
+
+.banner-data {
+  font-size: 1.3125rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.banner-data i {
+  color: #ffca00;
+  margin-right: 5px;
+}
+
+.banner-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.banner-form input {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 15px;
+  border: 1px solid #969696;
+  border-radius: 4px;
+  color: #ffff;
+  background: #ffffff2b;
+}
+
+.banner-form input:focus {
+  color: #ffca00;
+  outline: none;
+}
+
+.banner-form button {
+  background: #ffca00;
+  color: #141414;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 23px;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.banner-form button:hover {
+  color: #fff;
+  background: #ff0000;
+}
+
+@media (max-width: 768px) {
+  .banner-container {
+    grid-template-columns: 1fr;
+  }
+
+  .banner {
+    background: url(../img/Banner-Mobile-attPrancheta-1-copiar-5-scaled.jpg)
+      no-repeat top center;
+    background-size: cover;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #a38100;
+    padding-bottom: 20px;
+  }
+
+  .banner-head {
+    font-size: 1.5rem;
+    margin-top: 520px;
+  }
+
+  .banner-container img {
+    margin: 0 auto;
+  }
+}
